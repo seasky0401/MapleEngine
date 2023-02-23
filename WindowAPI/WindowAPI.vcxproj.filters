@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{fabc0d33-c3d5-44de-85de-a2a2e12f1d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CommonInclude">
+      <UniqueIdentifier>{95f9afcb-2c1f-4265-9b7a-71ff7b6d9714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{0ea96e95-faf8-48e3-8d17-17178a46e8b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameObject">
+      <UniqueIdentifier>{5ae0dbc9-42d1-4746-ab39-4fe378b0900b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\HIgh Level interface">
+      <UniqueIdentifier>{31a77f52-b46d-49c2-b998-73155f9870a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{f725c9ef-8be8-4a96-bfcc-d278a60e5851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{604de49f-a630-47bb-854e-7db30ee71390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene\Layer">
+      <UniqueIdentifier>{fbbb97ac-6ba4-442e-bc5d-53bbc29e6d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene\Manager">
+      <UniqueIdentifier>{e7aaf052-ed8f-4441-bd6e-c7bb890ebfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Time">
+      <UniqueIdentifier>{194d1b61-f055-4b49-9db0-f6c2c435f3d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CommonInclude.h">
+      <Filter>Engine\CommonInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="syge.h">
+      <Filter>Engine\CommonInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="syEntity.h">
+      <Filter>Engine\CommonInclude</Filter>
+    </ClInclude>
+    <ClInclude Include="syGameObject.h">
+      <Filter>Engine\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="syApplication.h">
+      <Filter>Engine\HIgh Level interface</Filter>
+    </ClInclude>
+    <ClInclude Include="syInput.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="syLayer.h">
+      <Filter>Engine\Scene\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="sySceneManager.h">
+      <Filter>Engine\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="syScene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="syTime.h">
+      <Filter>Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="syEntity.cpp">
+      <Filter>Engine\CommonInclude</Filter>
+    </ClCompile>
+    <ClCompile Include="syGameObject.cpp">
+      <Filter>Engine\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="syApplication.cpp">
+      <Filter>Engine\HIgh Level interface</Filter>
+    </ClCompile>
+    <ClCompile Include="syInput.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="syLayer.cpp">
+      <Filter>Engine\Scene\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="sySceneManager.cpp">
+      <Filter>Engine\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="syScene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="syTime.cpp">
+      <Filter>Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WindowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
